@@ -26,5 +26,6 @@ O projeto visa fornecer informações de qualidade sobre acidentes com animais p
 
    -->
 
-   📜 Licença
+
+## 📜 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
