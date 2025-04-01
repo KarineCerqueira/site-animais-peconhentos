@@ -37,9 +37,5 @@ O projeto visa fornecer informações de qualidade sobre acidentes com animais p
 
 4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-Você pode começar a editar a página modificando `app/page.tsx`. A página será atualizada automaticamente conforme você edita o arquivo.
-
-Este projeto utiliza `next/font` para otimizar automaticamente e carregar a fonte **Geist**, uma nova família tipográfica da Vercel.
-
 ## 📜 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
