@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐍 Site do Projeto de Animais Peçonhentos (Em andamento)
 
-## Getting Started
+Este repositório contém o site do **Projeto de Animais Peçonhentos**, uma plataforma interativa que permite visualizar análises sobre acidentes com animais peçonhentos, explorar dados relevantes e buscar o posto de saúde mais próximo que disponibiliza soro antiveneno.
 
-First, run the development server:
+## 🌍 Objetivo do Projeto
+O projeto visa fornecer informações de qualidade sobre acidentes com animais peçonhentos no Brasil, ajudando pesquisadores, profissionais de saúde e a população geral a entender padrões de ocorrência, bem como encontrar rapidamente atendimento médico adequado.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔥 Principais Funcionalidades
+- 📊 **Visualização de Análises**: Gráficos e mapas interativos sobre incidentes com serpentes, aranhas, escorpiões, entre outros.
+- 📂 **Exploração de Dados**: Acesso a datasets estruturados sobre casos registrados.
+- 📍 **Busca de Postos com Soro Antiveneno**: Localização dos postos de saúde mais próximos que dispõem do tratamento adequado.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗️ Tecnologias Utilizadas
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Banco de Dados**: Dados do SINAN (Sistema de Informação de Agravos de Notificação)
+<!--
+- - **Backend**: FastAPI, Flask, PostgreSQL
+- **Mapas**: Leaflet, OpenStreetMap
+-->
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Como Executar o Projeto
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/projeto-animais-peconhentos.git
+   cd projeto-animais-peconhentos
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Execute o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Você pode começar a editar a página modificando `app/page.tsx`. A página será atualizada automaticamente conforme você edita o arquivo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto utiliza `next/font` para otimizar automaticamente e carregar a fonte **Geist**, uma nova família tipográfica da Vercel.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
